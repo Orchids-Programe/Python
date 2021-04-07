@@ -1,0 +1,10 @@
+def keySort(ele):
+    return ele*(ele%2)
+aList = list(map(int, input('Nhap day so ').split(' ')))
+print(aList)
+aList.sort(key=None, reverse= False)
+print(aList)
+aList.sort(key = None, reverse= True)
+print(aList)
+aList.sort(key= keySort)
+print(aList)

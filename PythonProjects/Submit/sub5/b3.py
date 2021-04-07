@@ -1,0 +1,6 @@
+f = open('input.txt','r')
+print(f.read())
+thisdict = dict(f.read())
+g = open('reverse.txt','w')
+g.write(thisdict[::-1])
+print(g)

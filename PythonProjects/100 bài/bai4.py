@@ -1,0 +1,5 @@
+value =input('Nhap so : ')
+t = value.split(',')
+l = tuple(t)
+print(t)
+print(l)
